@@ -1,25 +1,25 @@
-# 🤖 Chatbot com IA
+# Chatbot com IA
 
 Um chatbot interativo construído com Streamlit e OpenAI GPT-4o que permite conversas em tempo real com inteligência artificial.
 
-## 📋 Descrição
+## Descrição
 
 Este projeto é um chatbot web que utiliza a API da OpenAI para fornecer respostas inteligentes às mensagens dos usuários. A interface é construída com Streamlit, proporcionando uma experiência de conversa fluida e intuitiva.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
-- 💬 Interface de chat interativa e responsiva
-- 🤖 Integração com OpenAI GPT-4o
-- 💾 Histórico de conversas mantido durante a sessão
-- 🔒 Segurança: chaves API protegidas via variáveis de ambiente
+- Interface de chat interativa e responsiva
+- Integração com OpenAI GPT-4o
+- Histórico de conversas mantido durante a sessão
+- Segurança: chaves API protegidas via variáveis de ambiente
 
-## 📦 Pré-requisitos
+## Pré-requisitos
 
 - Python 3.8 ou superior
 - Conta na OpenAI com acesso à API
 - Chave de API da OpenAI
 
-## 🔧 Instalação
+## Instalação
 
 1. Clone o repositório:
 ```bash
@@ -42,7 +42,7 @@ pip install -r requirements.txt
    OPENAI_API_KEY=sua_chave_api_aqui
    ```
 
-## ▶️ Como executar
+## Como executar
 
 Execute o seguinte comando no terminal:
 
@@ -52,7 +52,7 @@ streamlit run main.py
 
 O aplicativo será aberto automaticamente no seu navegador padrão, geralmente em `http://localhost:8501`.
 
-## 📝 Como usar
+## Como usar
 
 1. Abra o aplicativo no navegador
 2. Digite sua mensagem no campo de texto na parte inferior
@@ -60,24 +60,21 @@ O aplicativo será aberto automaticamente no seu navegador padrão, geralmente e
 4. Aguarde a resposta da IA
 5. Continue a conversa normalmente!
 
-## 🔐 Segurança
+## Segurança
 
-⚠️ **Importante**: Nunca compartilhe sua chave de API publicamente. O arquivo `.env` está no `.gitignore` e não será commitado no repositório.
+**Importante**: Nunca compartilhe sua chave de API publicamente. O arquivo `.env` está no `.gitignore` e não será commitado no repositório.
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - [Streamlit](https://streamlit.io/) - Framework para criação de aplicações web
 - [OpenAI API](https://platform.openai.com/) - API de inteligência artificial
 - [python-dotenv](https://github.com/theskumar/python-dotenv) - Gerenciamento de variáveis de ambiente
 
-## 📄 Licença
+## Licença
 
 Este projeto é de código aberto e está disponível sob a licença MIT.
 
 ## 👤 Autor
 
-Criado como parte da Jornada Python 2026
+Gabriela Grisolia - Criado como parte da Jornada Python 2026
 
----
-
-⭐ Se este projeto foi útil para você, considere dar uma estrela no repositório!
